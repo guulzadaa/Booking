@@ -24,8 +24,8 @@ This **Hotel Booking System** is a simple Java-based application that allows use
 ## 🏗️ Project Structure  
 ```
 📂 Booking/src
- ├── 📄 Main.java               
- ├── 📄 User.java               
+ ├── 📄 models.Main.java               
+ ├── 📄 models.User.java               
  ├── 📄 models.Room.java               
  ├── 📄 Interfaces.IUserService.java       
  ├── 📄 Implementation.UserServiceImpl.java    
