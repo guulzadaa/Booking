@@ -1,5 +1,10 @@
+package Implementation;
+
 import java.util.List;
 import java.util.Optional;
+
+import Interfaces.IUserService;
+import Repository.UserRepository;
 import org.mindrot.jbcrypt.BCrypt;
 
 public class UserServiceImpl implements IUserService {

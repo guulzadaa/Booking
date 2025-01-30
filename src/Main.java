@@ -163,7 +163,7 @@ public class Main {
                         }
 
 
-                        System.out.print("\nEnter the Room ID you want to book: ");
+                        System.out.print("\nEnter the models.Room ID you want to book: ");
                         int selectedRoomId = scanner.nextInt();
                         scanner.nextLine();
 
@@ -183,11 +183,11 @@ public class Main {
                             if (rs.next()) {
                                 boolean isAvailable = rs.getBoolean("is_available");
                                 if (!isAvailable) {
-                                    System.out.println("Room is not available. Please choose another room.");
+                                    System.out.println("models.Room is not available. Please choose another room.");
                                     continue;
                                 }
                             } else {
-                                System.out.println("Room not found. Please try again.");
+                                System.out.println("models.Room not found. Please try again.");
                                 continue;
                             }
                         }
@@ -217,7 +217,7 @@ public class Main {
                             continue;
                         }
 
-                        System.out.println("Room booked successfully!");
+                        System.out.println("models.Room booked successfully!");
 
                     } else if (loggedChoice == 2) {
 

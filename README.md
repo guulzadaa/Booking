@@ -11,7 +11,7 @@ This **Hotel Booking System** is a simple Java-based application that allows use
 - Profile update options (name, surname, phone number).  
 - User deletion feature.  
 
-### **Room Management**  
+### **models.Room Management**  
 - View **all rooms** and **available rooms** in the hotel.  
 - Book a room with payment processing.  
 - Automatic update of room availability after booking.  
@@ -26,12 +26,12 @@ This **Hotel Booking System** is a simple Java-based application that allows use
 📂 Booking/src
  ├── 📄 Main.java               
  ├── 📄 User.java               
- ├── 📄 Room.java               
- ├── 📄 IUserService.java       
- ├── 📄 UserServiceImpl.java    
- ├── 📄 UserRepository.java     
+ ├── 📄 models.Room.java               
+ ├── 📄 Interfaces.IUserService.java       
+ ├── 📄 Implementation.UserServiceImpl.java    
+ ├── 📄 Repository.UserRepository.java     
  ├── 📄 RoomRepository.java     
- ├── 📄 UserController.java     
+ ├── 📄 Controller.UserController.java     
  ├── 📄 README.md               
 ```
 

@@ -1,4 +1,4 @@
-package src;
+package models;
 
 public class Package {
     private String name;
@@ -20,7 +20,7 @@ public class Package {
     }
 
     public void displayInfo() {
-        System.out.println("src.Package: " + name);
+        System.out.println("models.Package: " + name);
         System.out.printf("Price per night: $%.2f\n", price);
         System.out.println("Included Services:");
         for (String service : services) {

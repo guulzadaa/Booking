@@ -1,3 +1,5 @@
+package models;
+
 import java.time.LocalDate;
 public class Room {    private int roomNumber;
     private String roomType;    private double price;
@@ -28,7 +30,7 @@ public class Room {    private int roomNumber;
     public void setAvailableDate(LocalDate availableDate) {        this.availableDate = availableDate;
     }
     @Override    public String toString() {
-        return "Room{" +                "roomNumber=" + roomNumber +
+        return "models.Room{" +                "roomNumber=" + roomNumber +
                 ", roomType='" + roomType + '\'' +                ", price=" + price +
                 ", isAvailable=" + isAvailable +                ", availableDate=" + (availableDate != null ? availableDate : "Now") +
                 '}';    }
